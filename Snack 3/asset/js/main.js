@@ -5,7 +5,7 @@ const myArray = ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara'];
 
 let min = Number(prompt("Il minimo"));
 let max = Number(prompt("Il massimo"));
-// let newArray = [];
+let newArray = [];
 
 if (isNaN(min) || isNaN(max) || min > max || min < 0 || max > 5) {
     alert("Inserisci due numeri compresi tra 0 e 5");
